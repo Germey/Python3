@@ -122,17 +122,17 @@
     * 位操作
   * 编码
     * 编码类型
-    * ASCII
-    * Unicode
-    * GBK
-    * GB2312
-    * UTF-8
+      * ASCII
+      * Unicode
+      * GBK
+      * GB2312
+      * UTF-8
     * 编码对象
-    * 文件编码
-    * 字符编码
+      * 文件编码
+      * 字符编码
     * 编码和解码
-    * encode
-    * decode
+      * encode
+      * decode
     * 编码转换
   
 * 数据结构
