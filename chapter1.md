@@ -51,6 +51,20 @@
       * wheel简介
       * wheel优势
       * wheel安装使用
+    * conda
+      * Anaconda简介
+      * Anaconda安装
+        * Windows平台
+        * Linux平台
+        * Mac平台
+      * conda使用
+        * 配置
+        * 查询包
+        * 安装包
+        * 删除包
+
+          
+      
     
   
   
