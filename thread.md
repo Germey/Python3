@@ -38,9 +38,8 @@
         * 格式化日期
       * calendar
       * datetime
-  * 数据压缩
+  * 数据库
     * 简介
-    * 常用函数
-  * 性能测试
-    * 简介
-    * 常用函数
+    * MySQL
+    * MongoDB
+    * Redis
