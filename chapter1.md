@@ -252,7 +252,40 @@
   * 递归函数
   * 类函数
   * 常用函数
-    * 
+    * 数学相关
+      * abs
+      * max
+      * min
+      * len
+      * pow
+      * round
+    * 功能相关
+      * type
+      * isinstance
+      * cmp
+      * range
+      * repr
+      * dir
+      * open
+      * help
+      * id
+    * 类型转换相关
+      * int
+      * float
+      * long
+      * str
+      * list
+      * tuple
+      * set
+      * dict
+    * 高阶函数
+      * map
+      * reduce
+      * filter
+      * zip
+      * sorted
+      * lambda
+      
           
       
     
