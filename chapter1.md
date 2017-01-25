@@ -28,8 +28,9 @@
       * Ubuntu、Debian、Deepin
       * CentOS、Redhat、Fedora
     * Mac平台
-  * 包管理工具
+  * 包管理
     * pip
+      * pip简介
       * pip安装
         * Windows平台
         * Linux平台
@@ -40,11 +41,16 @@
         * 卸载包
         * 查询包
     * easy_install
+      * easy_install简介
       * easy_install安装
       * easy_install使用
         * 安装包
         * 升级包
         * 删除包
+    * wheel
+      * wheel简介
+      * wheel优势
+      * wheel安装使用
     
   
   
