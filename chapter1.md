@@ -287,7 +287,18 @@
       * zip
       * sorted
       * lambda
-      
+* 错误和异常
+  * 定义
+  * 标准异常
+  * 处理异常
+    * 捕获异常
+      * try
+      * except
+      * finally
+      * else
+    * 触发异常
+      * raise
+  * 
           
       
     
