@@ -21,6 +21,11 @@
     * Jython
     * IronPython
     * ZhPy
+  * 文件后缀
+    * py
+    * pyc
+    * pyo
+    * pyd
 * Python环境
   * Python安装
     * Windows平台
@@ -63,8 +68,12 @@
         * 安装包
         * 删除包
   * 开发环境
-    * 命令行模式
     * Python交互模式
+      * 进入
+      * 运行
+      * 退出
+    * 命令行模式
+      * 文件
     * IDE
     
     
