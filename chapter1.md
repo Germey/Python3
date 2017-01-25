@@ -30,6 +30,13 @@
     * Mac平台
   * 包管理工具
     * pip
+      * pip安装
+        * Windows平台
+        * Linux平台
+        * Mac平台
+      * pip使用
+        * 安装包
+        * 
     * easy_install
   
   
