@@ -40,6 +40,12 @@
         * 卸载包
         * 查询包
     * easy_install
+      * easy_install安装
+      * easy_install使用
+        * 安装包
+        * 升级包
+        * 删除包
+    
   
   
 
