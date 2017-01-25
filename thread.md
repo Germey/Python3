@@ -15,4 +15,24 @@
       * FIFO
       * LIFO
       * Priority
-    
+  * 多进程
+    * 创建多进程
+      * Process
+      * 自定义类
+      * deamon
+    * 进程同步
+      * Lock
+      * Semaphore
+    * 进程通信
+      * Pipe
+      * Queue
+    * 进程池
+      * 概念
+        * 定义
+        * 阻塞
+        * 非阻塞
+      * 实现
+        * apply_async
+        * apply
+        * map
+      
