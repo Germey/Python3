@@ -347,28 +347,28 @@
     * >> 重定向
     * stdout重定向
   * 文件I／O
-* 打开文件
-  * 基本实现
-  * 函数参数
-    *  读
-    * 写
-    * 追加
-    * 二进制
-  * 对象属性
-* 关闭文件
-* 写入文件
-  * write
-  * writelines
-* 读取文件
-  * read
-  * readlines
-* 定位文件
-  * tell
-  * seek
-* 重命名文件
-  * rename
-* 删除文件
-  * remove
+    * 打开文件
+      * 基本实现
+      * 函数参数
+        *  读
+        * 写
+        * 追加
+        * 二进制
+      * 对象属性
+    * 关闭文件
+    * 写入文件
+      * write
+      * writelines
+    * 读取文件
+      * read
+      * readlines
+    * 定位文件
+      * tell
+      * seek
+    * 重命名文件
+      * rename
+    * 删除文件
+      * remove
 
     
             
