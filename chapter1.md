@@ -27,7 +27,7 @@
     * Linux平台
       * Ubuntu、Debian、Deepin
       * CentOS、Redhat、Fedora
-    
+    * Mac平台
   * 包管理工具
     * pip
     * easy_install
