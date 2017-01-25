@@ -336,12 +336,11 @@
   * 简介
   * 输入输出
     * 输入
-      * 基本输入
-        * input
-        * raw_input
+      * input
+      * raw_input
     * 输出
      * print
-* I/O重定向
+  * I/O重定向
     * 控制台重定向
     * 重定向
     * stdout重定向
