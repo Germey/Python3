@@ -52,17 +52,26 @@ IndexError: list index out of range
 访问元素即通过索引访问，变量名加索引即可完成元素的访问。
 
 ```python
-list1 = ['physics', 'chemistry', 1997, 2000]
-print('list1[0]:', list1[0])
+a = ['bob', 'sam', 1000, 1234]
+print('a[0]:', a[0])
 
 ```
 输出结果
 
 ```
-list1[0]: physics
+a[0]: bob
 ```
 
-* 添加元素
+
+### 添加元素
+
+添加元素有两种方式，一种是在列表末尾添加元素，另一种是在列表中间插入元素。
+
+##### 末尾添加
+
+
+
+
 * 删除元素
 * 统计元素
 * 索引元素
