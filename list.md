@@ -44,7 +44,7 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 IndexError: list index out of range
 ```
-可以发现，通过变量名
+可以发现，通过a[0]，a[1]即可完成列表中元素的获取，由于列表中只包含四个元素，所以只可以通过a[0]，a[1]，a[2]，a[3]来获取四个元素，当使用a[4]尝试获取第五个元素时，由于列表中不存在第五个元素，所以出现越界的异常。
 
 * 列表操作
 * 访问元素
