@@ -120,7 +120,7 @@ print("New value at index 2:", a[2])
 Value at index 2: 1000
 New value at index 2: 2001
 ```
-所以直接通过等号赋值某个元素即可完成元素的更新。
+所以直接通过等号和索引赋值某个元素即可完成元素的更新。
 
 
 * 统计元素
