@@ -142,9 +142,6 @@ print ('Taobao Index:', a.index('Taobao')) print ('Runoob Index:', a.index('Ru
 ```
 Google Index: 0
 Taobao Index: 2
-Traceback (most recent call last):
-File "/var/py/python/d.py", line 4, in <module>
-print ('Runoob Index:', a.index('Runoob'))
 ValueError: 'Runoob' is not in list
 ```
 
