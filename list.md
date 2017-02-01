@@ -127,4 +127,119 @@ print('a[0]:', a[0])
 a[0]: bob
 ```
 
+### 查找元素
+
+可以通过index()从列表中找出某个值第一个匹配项的索引位置，该方法返回查找对象的索引位置，如果没有找到对象则抛出异常。例如：
+
+```python
+a = ['Google', 'Baidu', 'Taobao', 'Google'] 
+print ('Google Index:', a.index('Google')) 
+print ('Taobao Index:', a.index('Taobao')) print ('Runoob Index:', a.index('Runoob'))
+```
+
+运行结果：
+
+```
+Google Index: 0
+Taobao Index: 2
+Traceback (most recent call last):
+File "/var/py/python/d.py", line 4, in <module>
+print ('Runoob Index:', a.index('Runoob'))
+ValueError: 'Runoob' is not in list
+```
+
+可以发现Google查找到的索引位置是其第一次出现的位置0，而Runoob在列表中不存在，抛出ValueError异常。
+
+### 添加元素
+
+添加元素有两种方式，一种是在列表末尾添加元素，另一种是在列表中间插入元素。
+
+#### 末尾添加
+
+末尾添加的方法是列表变量后加append()方法，传入要添加的元素即可。
+
+```python
+a = ['bob', 'sam', 1000, 1234]
+a.append('hello')
+print(a)
+```
+
+结果如下：
+
+```
+['bob', 'sam', 1000, 1234, 'hello']
+```
+
+可以发现调用了append()方法，传入一个参数，这个参数就会被当作新的元素添加到列表到末尾。
+
+#### 中间添加
+
+中加添加的方法是列表变量后加insert()方法，第一个参数是要插入的索引位置，第二个参数是被插入的元素本身。
+
+```python
+a = ['bob', 'sam', 1000, 1234]
+a.insert(1, 'jack')
+print(a)
+```
+
+结果如下：
+
+```
+['bob', 'jack', 'sam', 1000, 1234]
+```
+
+可以发现，'jack'最后的位置是索引位置1，所以第一个参数即为要插入的索引位置，后面的元素依次向后挪动一个位置。
+
+### 更新元素
+
+更新元素直接通过索引加等号赋值即可。
+
+```python
+a = ['bob', 'sam', 1000, 1234]
+print("Value at index 2:", a[2])
+a[2] = 2001;
+print("New value at index 2:", a[2])
+```
+
+运行结果：
+
+```
+Value at index 2: 1000
+New value at index 2: 2001
+```
+
+所以直接通过等号和索引赋值某个元素即可完成元素的更新。
+
+### 删除元素
+
+删除元素有三种方式，一种是删除末尾元素，另一种是删除通过索引删除指定元素，第三种是通过元素值删除列表中某个值的第一个匹配项。
+
+#### 删除末尾元素
+
+删除末尾元素使用pop()方法，直接在列表后调用即可。例如：
+
+```python
+a = ['bob', 'sam', 1000, 1234]
+a.pop()
+print(a)
+```
+
+运行结果：
+
+```
+['bob', 'sam', 1000]
+```
+
+pop()方法会将列表直接改变，不需要重新对列表赋值。
+
+#### 删除索引元素
+
+删除指定元素是通过del操作，后面跟列表的某一个元素，用索引来确定。例如：
+
+```python
+a = ['bob', 'sam', 1000, 1234]
+print("Before Delete:", a)
+del a[2];
+print("After Delete:", a)
+```
 
