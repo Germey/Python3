@@ -2,7 +2,7 @@
 
 ## 列表定义
 
-列表是Python中最基本的数据结构。是一些元素（如字符串，数字，对象）的有序集合，用中括号包围，  
+列表是Python中最基本的数据结构。是一些元素（如字符串，数字，对象）的有序集合，用中括号包围，
 每个元素用逗号分隔开。
 
 每一个元素都有其对应的位置，称为索引，如第一个元素的索引为0，第二个元素的索引为1，依次类推。
@@ -79,7 +79,7 @@ IndexError: list index out of range
 'sam'
 >>> a[-5]
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
+File "<stdin>", line 1, in <module>
 IndexError: list index out of range
 ```
 
@@ -95,7 +95,7 @@ b = [4, 5, 6]
 c = [7, 8, 9]
 m = [a, b, c]
 for e in m:
-    print(e)
+	print(e)
 print('m:', m)
 ```
 
@@ -141,8 +141,8 @@ a = ['Google', 'Baidu', 'Taobao', 'Google'] print ('Google Index:', a.index('G
 Google Index: 0
 Taobao Index: 2
 Traceback (most recent call last):
-  File "/var/py/python/d.py", line 4, in <module>
-    print ('Runoob Index:', a.index('Runoob'))
+File "/var/py/python/d.py", line 4, in <module>
+print ('Runoob Index:', a.index('Runoob'))
 ValueError: 'Runoob' is not in list
 ```
 
@@ -228,7 +228,7 @@ print(a)
 ['bob', 'sam', 1000]
 ```
 
-pop\(\)方法会将列表直接改变，不需要重新对列表赋值。
+pop()方法会将列表直接改变，不需要重新对列表赋值。
 
 #### 删除索引元素
 
@@ -337,7 +337,7 @@ print(min(a))
 ```python
 a = ['bob', 'sam', 1000, 1234]
 for e in a:
-print(e)
+	print(e)
 ```
 
 运行结果：
@@ -685,6 +685,5 @@ List: ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
 ```
 
 所以当字符串转列表时，会将每一个字符当做列表的每一个元素进行转换，列表长度即为原字符串的长度。
-
 
 
