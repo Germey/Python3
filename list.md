@@ -112,38 +112,3 @@ m: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 ## 列表操作
 
-### 访问元素
-
-访问元素即通过索引访问，变量名加索引即可完成元素的访问。
-
-```python
-a = ['bob', 'sam', 1000, 1234]
-print('a[0]:', a[0])
-```
-
-输出结果
-
-```
-a[0]: bob
-```
-
-### 查找元素
-
-可以通过index()从列表中找出某个值第一个匹配项的索引位置，该方法返回查找对象的索引位置，如果没有找到对象则抛出异常。例如：
-
-```python
-a = ['Google', 'Baidu', 'Taobao', 'Google'] 
-print ('Google Index:', a.index('Google')) 
-print ('Taobao Index:', a.index('Taobao')) print ('Runoob Index:', a.index('Runoob'))
-```
-
-运行结果：
-
-```
-Google Index: 0
-Taobao Index: 2
-ValueError: 'Runoob' is not in list
-```
-
-可以发现Google查找到的索引位置是其第一次出现的位置0，而Runoob在列表中不存在，抛出ValueError异常。
-
