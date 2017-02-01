@@ -133,9 +133,6 @@ a[0]: bob
 
 ```python
 a = ['Google', 'Baidu', 'Taobao', 'Google'] 
-print ('Google Index:', a.index('Google')) 
-print ('Taobao Index:', a.index('Taobao')) 
-print ('Runoob Index:', a.index('Runoob'))
 ```
 
 运行结果：
